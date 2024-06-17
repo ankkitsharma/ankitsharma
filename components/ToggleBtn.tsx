@@ -1,22 +1,12 @@
 "use client";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./ToggleBtn.module.css";
 import useLocalStorage from "use-local-storage";
 import { Toggle } from "@/components/Toggle";
 
 export default function ToggleBtn() {
-  const theme = localStorage.getItem("isDark");
-  const [isDark, setIsDark] = useLocalStorage(
-    "isDark",
-    theme === "dark" || false
-  );
-
-  useEffect(() => {
-    const preference = window.matchMedia(
-      "(prefers-color-scheme: dark)"
-    ).matches;
-    setIsDark(preference);
-  }, []);
+  const preference = window.matchMedia("(prefers-color-scheme: dark)").matches;
+  const [isDark, setIsDark] = useLocalStorage("isDark", preference);
 
   return (
     <div className={styles.App} data-theme={isDark ? "dark" : "light"}>
