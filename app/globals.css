@@ -24,6 +24,10 @@
 }
 
 body {
-  background-color: var(--background-color) !important;
-  transition: background-color 0.25s ease-in-out !important;
+  background-color: var(--background-color);
+  transition: background-color 0.25s ease-in-out;
+  /* padding: 5rem 10rem; */
+}
+
+.home {
 }

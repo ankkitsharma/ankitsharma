@@ -1,0 +1,8 @@
+.App {
+  /* overflow-y: auto; */
+  position: static;
+  /* overflow: hidden; */
+  /* height: 100vh; */
+  width: 50%;
+  word-break: break-all;
+}

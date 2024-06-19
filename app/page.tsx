@@ -1,10 +1,13 @@
 import React from "react";
-import ToggleBtn from "@/components/ToggleBtn";
+import styles from "./index.module.css";
+import LeftPart from "@/components/LeftPart";
+import RightPart from "@/components/RightPart";
+
 export default function page() {
   return (
-    <div>
-      <ToggleBtn />
-      <div>Page</div>
+    <div className={styles.App}>
+      <LeftPart />
+      <RightPart />
     </div>
   );
 }

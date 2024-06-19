@@ -1,8 +1,8 @@
 .toggle-container {
-  position: absolute;
-  top: 2em;
-  right: 2em;
-  z-index: 1;
+  position: relative;
+  /* top: 40em;
+  right: 0em; */
+  /* z-index: 1; */
 }
 
 .toggle {
