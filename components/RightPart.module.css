@@ -1,8 +1,12 @@
-.App {
-  /* overflow-y: auto; */
-  position: static;
-  /* overflow: hidden; */
-  /* height: 100vh; */
+.right {
   width: 50%;
-  word-break: break-all;
+  /* word-break: break-all; */
+  height: fit-content;
+  /* box-sizing: border-box; */
+  display: flex;
+  flex-direction: column;
+  gap: 40rem;
+  /* justify-content: space-evenly; */
+  /* padding: 2rem 5rem; */
+  height: 100vh;
 }

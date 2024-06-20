@@ -5,7 +5,7 @@ import RightPart from "@/components/RightPart";
 
 export default function page() {
   return (
-    <div className={styles.App}>
+    <div className={styles.home}>
       <LeftPart />
       <RightPart />
     </div>

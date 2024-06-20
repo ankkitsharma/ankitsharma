@@ -1,6 +1,41 @@
-.App {
+.left {
   position: sticky;
   position: -webkit-sticky;
   top: 0;
   width: 50%;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 0.5rem;
+}
+
+.name {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--primary-text-color);
+}
+
+.job {
+  font-size: 1.5rem;
+  font-weight: 500;
+  /* color: var(--secondary-text-color); */
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+  gap: 0.7rem;
+  /* height: 300px; */
+  /* font-size: 1.5rem; */
+  /* font-weight: 500; */
+  color: var(--primary-text-color);
+  /* padding: 2rem 0; */
+}
+
+.nav li {
+  list-style: none;
 }

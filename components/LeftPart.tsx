@@ -1,0 +1,70 @@
+"use client";
+import ToggleBtn from "@/components/ToggleBtn";
+import styles from "./LeftPart.module.css";
+import { useEffect } from "react";
+// import { Link } from "react-scroll";
+
+export default function LeftPart() {
+  useEffect(() => {
+    const sections = document.querySelectorAll("section");
+    const navLinks = document.querySelectorAll(".navlinks a");
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            let id = entry.target.id;
+
+            navLinks.forEach((link) => {
+              link.classList.remove("active");
+
+              // getting anchor-tag's href attribute & removing '#' from it.
+              let href = link.getAttribute("href")?.substring(1);
+
+              if (href === id) {
+                link.classList.add("active");
+              }
+            });
+          }
+        });
+      },
+      {
+        threshold: 0.1,
+      }
+    );
+
+    sections.forEach((sec) => {
+      observer.observe(sec);
+    });
+  }, []);
+  return (
+    <div className={styles.left}>
+      <div className={styles.profile}>
+        <div className={styles.name}>Ankit Sharma</div>
+        <div className={styles.job}>Full Stack Developer</div>
+        <header>
+          <nav className={`navlinks`}>
+            <ul className={styles.nav}>
+              <li>
+                <a href="#hero">Home</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#services">Services</a>
+              </li>
+              <li>
+                <a href="#gallery">Gallery</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+      <ToggleBtn />
+    </div>
+  );
+}
