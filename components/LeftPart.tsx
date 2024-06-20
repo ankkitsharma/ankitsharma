@@ -1,5 +1,8 @@
 "use client";
-import ToggleBtn from "@/components/ToggleBtn";
+import dynamic from "next/dynamic";
+const ToggleBtn = dynamic(() => import("@/components/ToggleBtn"), {
+  ssr: false,
+});
 import styles from "./LeftPart.module.css";
 import { useEffect } from "react";
 // import { Link } from "react-scroll";
@@ -46,7 +49,7 @@ export default function LeftPart() {
           <nav className={`navlinks`}>
             <ul className={styles.nav}>
               <li>
-                <a href="#hero">Home</a>
+                <a href="#hero">Hero</a>
               </li>
               <li>
                 <a href="#about">About</a>
