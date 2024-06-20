@@ -45,6 +45,10 @@ export default function LeftPart() {
       <div className={styles.profile}>
         <div className={styles.name}>Ankit Sharma</div>
         <div className={styles.job}>Full Stack Developer</div>
+        <div className={styles.intro}>
+          Innovative Full Stack Developer with a passion for creating engaging
+          websites.
+        </div>
         <header>
           <nav className={`navlinks`}>
             <ul className={styles.nav}>
