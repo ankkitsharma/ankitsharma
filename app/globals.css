@@ -28,12 +28,12 @@
 body {
   /* background-color: var(--background-color); */
   transition: background-color 0.25s ease-in-out;
+  animation: scroll 100s infinite;
+  background: var(--background-img), #111111;
   /* padding: 5rem 10rem; */
 }
 
 body {
-  animation: scroll 100s infinite;
-  background: var(--background-img), #111111;
   /* color: #eee;
   height: 100vh;
   min-width: 360px;
