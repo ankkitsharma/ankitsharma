@@ -3,47 +3,48 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
+  line-height: 26px;
 }
 
 :root {
   --background-color: #f6f6f6;
-  --background-img: url("https://www.toptal.com/designers/subtlepatterns/uploads/memphis-mini.png");
+  --background-img: url("https://images.unsplash.com/photo-1654793182455-83e2a50f3494?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   --foreground-color: #003cff;
   --primary-text-color: #0a0a0a;
   --secondary-text-color: #ffffff;
   --toggle-bg: #f0eb9d;
   --toggle-fg: #ffd000;
+  --box-bg: rgba(26, 25, 48, 1);
 }
 
 [data-theme="dark"] {
   --background-color: #0a0a0a;
-  --background-img: url("https://www.toptal.com/designers/subtlepatterns/uploads/memphis-mini-dark.png");
+  --background-img: url("https://images.unsplash.com/photo-1663970206579-c157cba7edda?q=80&w=2128&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   --foreground-color: #567aff;
   --primary-text-color: #f6f6f6;
   --secondary-text-color: #0a0a0a;
   --toggle-bg: #283452;
   --toggle-fg: #00a6ff;
+  --box-bg: rgb(18, 18, 22);
 }
 
 body {
-  /* background-color: var(--background-color); */
   transition: background-color 0.25s ease-in-out;
   animation: scroll 100s infinite;
   background: var(--background-img), #111111;
-  /* padding: 5rem 10rem; */
+  background-size: cover;
+  backdrop-filter: blur(30px);
+  /* -webkit-box-shadow: inset 0px 0px 0px 10px rgb(235, 232, 232);
+  -moz-box-shadow: inset 0px 0px 0px 10px rgb(255, 255, 255);
+  box-shadow: inset 0px 0px 30px 1.7rem var(--box-bg); */
 }
 
-body {
-  /* color: #eee;
-  height: 100vh;
-  min-width: 360px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  perspective: 1000px;
-  perspective-origin: 50% 50%; */
-  /* height: 100vh; */
+.card {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
 }
 
 a {

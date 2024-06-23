@@ -32,7 +32,7 @@ export default function LeftPart() {
         });
       },
       {
-        threshold: 0.55,
+        threshold: 0.5,
       }
     );
 
