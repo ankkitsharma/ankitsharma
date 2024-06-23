@@ -32,7 +32,7 @@ export default function LeftPart() {
         });
       },
       {
-        threshold: 0.1,
+        threshold: 0.55,
       }
     );
 
@@ -49,29 +49,29 @@ export default function LeftPart() {
           Innovative Full Stack Developer with a passion for creating engaging
           websites.
         </div>
-        <header>
-          <nav className={`navlinks`}>
-            <ul className={styles.nav}>
-              <li>
-                <a href="#hero">Hero</a>
-              </li>
-              <li>
-                <a href="#about">About</a>
-              </li>
-              <li>
-                <a href="#services">Services</a>
-              </li>
-              <li>
-                <a href="#gallery">Gallery</a>
-              </li>
-              <li>
-                <a href="#contact">Contact</a>
-              </li>
-            </ul>
-          </nav>
-        </header>
       </div>
-      <ToggleBtn />
+      <header className={styles.navHeader}>
+        <nav className={`navlinks`}>
+          <ul className={styles.nav}>
+            <li>
+              <a href="#hero">Hero</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#services">Services</a>
+            </li>
+            <li>
+              <a href="#gallery">Gallery</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <ToggleBtn />
+      </header>
     </div>
   );
 }
