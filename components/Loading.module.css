@@ -1,0 +1,28 @@
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: black;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.loadingText {
+  background: linear-gradient(to right, #666363 0, white 10%, #666363 20%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animate 3s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0;
+  }
+  50% {
+    background-position: 470px;
+  }
+  100% {
+    background-position: 570px;
+  }
+}
