@@ -54,7 +54,7 @@ export default function LeftPart() {
         <nav className={`navlinks`}>
           <ul className={styles.nav}>
             <li>
-              <a href="#hero">Hero</a>
+              <a href="#skills">Skills</a>
             </li>
             <li>
               <a href="#about">About</a>

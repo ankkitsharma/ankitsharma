@@ -11,7 +11,7 @@ export default function page() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 5000); // Adjust the delay time as needed (2000 milliseconds = 2 seconds)
+    }, 2500); // Adjust the delay time as needed (2000 milliseconds = 2 seconds)
 
     return () => clearTimeout(timer);
   }, []);
