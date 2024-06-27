@@ -27,8 +27,7 @@ export default function Stacks() {
       </div>
       <div className={styles.item}>
         <Image
-          src="/tailwind.png
-        "
+          src="/tailwind.svg"
           alt="tailwind"
           width={40}
           height={40}
