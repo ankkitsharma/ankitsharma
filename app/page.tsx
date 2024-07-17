@@ -7,7 +7,7 @@ import { Suspense } from "react";
 import Loader from "@/components/Loading";
 
 export default function page() {
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);

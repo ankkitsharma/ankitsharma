@@ -21,6 +21,70 @@
   padding-bottom: 10rem;
 }
 
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+.gridContainer:hover {
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.055);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border-radius: 0.5rem;
+}
+
+.gridContainer:hover .gridHeader {
+  color: #56dfac;
+}
+
+.gridItem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.date {
+  font-size: 0.95rem;
+  color: #d3d0d0;
+}
+
+.gridHeader {
+  font-size: 1.2rem;
+  font-weight: 600;
+  /* margin-bottom: 0.5rem; */
+}
+
+.gridBody {
+  /* font-size: 0.9rem; */
+  color: #d3d0d0;
+  /* line-height: 1.5rem; */
+}
+
+.techUsed {
+  list-style: none;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.techUsed li {
+  background: #28bb7429;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border-radius: 1rem;
+  padding: 0.1rem 0.8rem;
+  color: #56dfac;
+}
+
+.resume:hover {
+  color: #56dfac;
+}
+
 @media screen and (max-width: 820px) {
   .right {
     width: 100%;

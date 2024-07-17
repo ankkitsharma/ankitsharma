@@ -32,7 +32,7 @@ export default function LeftPart() {
         });
       },
       {
-        threshold: 0.5,
+        threshold: 0.9,
       }
     );
 
@@ -57,10 +57,10 @@ export default function LeftPart() {
               <a href="#skills">Skills</a>
             </li>
             <li>
-              <a href="#about">About</a>
+              <a href="#experience">Experience</a>
             </li>
             <li>
-              <a href="#services">Services</a>
+              <a href="#projects">Projects</a>
             </li>
             <li>
               <a href="#gallery">Gallery</a>
