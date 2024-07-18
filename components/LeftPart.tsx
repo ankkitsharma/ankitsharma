@@ -63,9 +63,6 @@ export default function LeftPart() {
               <a href="#projects">Projects</a>
             </li>
             <li>
-              <a href="#gallery">Gallery</a>
-            </li>
-            <li>
               <a href="#contact">Contact</a>
             </li>
           </ul>
