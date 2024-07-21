@@ -16,10 +16,10 @@
   }
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 920px) {
   .home {
     flex-direction: column;
     gap: 5rem;
-    padding: 6rem 3rem;
+    padding: 0 2rem;
   }
 }

@@ -38,7 +38,7 @@
   margin: 0.5rem;
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 920px) {
   .stacks {
     justify-content: center;
   }

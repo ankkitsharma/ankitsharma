@@ -2,8 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 26px;
+  /* line-height: 26px; */
 }
 
 :root {
@@ -11,7 +10,9 @@
   --background-img: url("https://images.unsplash.com/photo-1654793182455-83e2a50f3494?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   --foreground-color: #003cff;
   --primary-text-color: #0a0a0a;
-  --secondary-text-color: #ffffff;
+  --secondary-text-color: #262424;
+  --special-text-color: #134037;
+  --special-bg-color: #17b15a29;
   --toggle-bg: #f0eb9d;
   --toggle-fg: #ffd000;
   --box-bg: rgba(26, 25, 48, 1);
@@ -22,9 +23,11 @@
   --background-img: url("https://images.unsplash.com/photo-1663970206579-c157cba7edda?q=80&w=2128&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   --foreground-color: #567aff;
   --primary-text-color: #f6f6f6;
-  --secondary-text-color: #0a0a0a;
+  --secondary-text-color: #d3d0d0;
+  --special-text-color: #518cfc;
+  --special-bg-color: #1d44f029;
   --toggle-bg: #283452;
-  --toggle-fg: #00a6ff;
+  --toggle-fg: #518cfc;
   --box-bg: rgb(18, 18, 22);
 }
 

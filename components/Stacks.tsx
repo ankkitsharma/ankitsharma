@@ -26,12 +26,7 @@ export default function Stacks() {
         <p>TypeScript</p>
       </div>
       <div className={styles.item}>
-        <Image
-          src="/tailwind.svg"
-          alt="tailwind"
-          width={40}
-          height={40}
-        />
+        <Image src="/tailwind.svg" alt="tailwind" width={40} height={40} />
         <p>Tailwind</p>
       </div>
       <div className={styles.item}>
