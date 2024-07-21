@@ -6,7 +6,7 @@
 }
 
 .toggle {
-  visibility: hidden;
+  display: none;
 }
 
 .toggle + label {

@@ -41,6 +41,11 @@
   list-style: none;
 }
 
+.nav li:hover {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
 .intro {
   width: 50%;
   line-height: 1.5;
@@ -52,6 +57,14 @@
   gap: 1rem;
   justify-content: space-between;
   height: 80%;
+}
+
+.contactContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-top: auto;
+  align-items: center;
 }
 
 @media screen and (max-width: 820px) {

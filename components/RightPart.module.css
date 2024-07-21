@@ -2,7 +2,7 @@
   width: 50%;
   display: flex;
   flex-direction: column;
-  /* gap: 10rem; */
+  gap: 8rem;
   padding-bottom: 10rem;
   /* scroll-snap-type: y mandatory; */
   height: 100vh;
@@ -39,7 +39,7 @@
 }
 
 .gridContainer:hover .gridHeader {
-  color: #56dfac;
+  color: #518cfc;
 }
 
 .gridItem {
@@ -73,17 +73,21 @@
 }
 
 .techUsed li {
-  background: #28bb7429;
+  background: #1d44f029;
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);
   border-radius: 1rem;
   padding: 0.1rem 0.8rem;
-  color: #56dfac;
+  color: #518cfc;
 }
 
 .resume:hover {
-  color: #56dfac;
+  color: #518cfc;
+}
+
+.contactContainer {
+  padding: 1rem;
 }
 
 .contactContainer:hover {
@@ -93,6 +97,14 @@
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);
   border-radius: 0.5rem;
+}
+
+.contactContainer p {
+  margin-bottom: 1rem;
+}
+
+.contactContainer:hover img {
+  filter: invert(0.5) sepia(1) saturate(5) hue-rotate(175deg);
 }
 
 .contacts {

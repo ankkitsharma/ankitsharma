@@ -168,7 +168,8 @@ export default function RightPart() {
       >
         <h1>Contact Me</h1>
         <p>
-          I'm always looking for new opportunities. Feel free to reach out to me
+          I'm always looking for new opportunities. Feel free to reach out to
+          me.
         </p>
         <ul className={styles.contacts}>
           <li className={styles.contact}>
@@ -182,8 +183,8 @@ export default function RightPart() {
           </li>
           <li className={styles.contact}>
             <Image
-              src={"/contact/phone.svg"}
-              alt="Phone"
+              src={"/contact/location.svg"}
+              alt="location"
               width={20}
               height={20}
             />{" "}
@@ -191,21 +192,21 @@ export default function RightPart() {
           </li>
           <li className={styles.contact}>
             <Image
-              src={"/contact/phone.svg"}
-              alt="Phone"
+              src={"/contact/mail.svg"}
+              alt="mail"
               width={20}
               height={20}
             />{" "}
-            <div>yogesh02011998</div>
+            <div>ankitsharma2801@gmail.com</div>
           </li>
           <li className={styles.contact}>
             <Image
-              src={"/contact/phone.svg"}
-              alt="Phone"
+              src={"/contact/home.svg"}
+              alt="home"
               width={20}
               height={20}
             />{" "}
-            <div>YogeshSharma0201</div>
+            <div>https://ankitsharma-zeta.vercel.app/</div>
           </li>
         </ul>
       </section>
@@ -213,45 +214,7 @@ export default function RightPart() {
         className={
           styles.heading + " " + styles.bottomSection + " " + styles.pt
         }
-      >
-        <h1>Extra</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-          elementum porta ligula in ultrices. Praesent consectetur auctor velit
-          ut dapibus. Aenean feugiat volutpat feugiat. Maecenas fringilla quam
-          sit amet porta suscipit. Sed viverra mollis bibendum. Nunc vel porta
-          leo, a viverra dui. Praesent et est diam. Nullam sit amet est vitae
-          quam molestie congue. Aenean id lacus nisl. Cras aliquet in dolor non
-          dapibus. Praesent imperdiet efficitur purus imperdiet hendrerit.
-          Aliquam quis eros vitae justo viverra sollicitudin ac quis justo.
-          Donec at purus metus. Quisque luctus magna non lobortis vestibulum.
-          Nam eu mi nulla. Donec malesuada hendrerit diam. Vestibulum ante ipsum
-          primis in faucibus orci luctus et ultrices posuere cubilia curae;
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-          elementum porta ligula in ultrices. Praesent consectetur auctor velit
-          ut dapibus. Aenean feugiat volutpat feugiat. Maecenas fringilla quam
-          sit amet porta suscipit. Sed viverra mollis bibendum. Nunc vel porta
-          leo, a viverra dui. Praesent et est diam. Nullam sit amet est vitae
-          quam molestie congue. Aenean id lacus nisl. Cras aliquet in dolor non
-          dapibus. Praesent imperdiet efficitur purus imperdiet hendrerit.
-          Aliquam quis eros vitae justo viverra sollicitudin ac quis justo.
-          Donec at purus metus. Quisque luctus magna non lobortis vestibulum.
-          Nam eu mi nulla. Donec malesuada hendrerit diam. Vestibulum ante ipsum
-          primis in faucibus orci luctus et ultrices posuere cubilia curae;
-          Nulla commodo purus quis aliquam aliquam. Suspendisse potenti. Donec
-          sit amet nisl tincidunt, imperdiet urna at, venenatis ligula. Ut nec
-          pulvinar tortor, elementum egestas nisi. Phasellus aliquet libero non
-          pharetra feugiat. Curabitur ante nisl, laoreet quis odio id, faucibus
-          consectetur magna. Nunc nec dolor libero. Sed eleifend quam ex, at
-          sollicitudin lacus gravida non. Aliquam et orci velit. Curabitur vitae
-          ligula a nulla tincidunt facilisis ut eget sapien. Phasellus urna
-          turpis, placerat at nibh eget, facilisis pulvinar nisi. Aliquam erat
-          volutpat. Phasellus sit amet metus facilisis, aliquet dolor dignissim,
-          porta lorem. Etiam et nulla rutrum, elementum ante sit amet, pretium
-          quam. Aenean condimentum dui sodales, tincidunt elit et, volutpat
-          magna. Aenean est augue, dictum a sem vitae, rhoncus porttitor dolor.
-        </p>
-      </section>
+      ></section>
     </div>
   );
 }
