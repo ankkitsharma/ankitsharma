@@ -7,11 +7,11 @@ import { Suspense } from "react";
 import Loader from "@/components/Loading";
 
 export default function page() {
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 2500); // Adjust the delay time as needed (2000 milliseconds = 2 seconds)
+    }, 2000);
 
     return () => clearTimeout(timer);
   }, []);

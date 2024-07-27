@@ -86,7 +86,7 @@
 }
 
 .resume:hover {
-  color: #518cfc;
+  color: var(--special-text-color);
 }
 
 .contactContainer {
