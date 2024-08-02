@@ -68,7 +68,7 @@ export default function RightPart() {
       <section className={styles.heading + " " + styles.pt} id="projects">
         <h1>Projects</h1>
         <a
-          href="https://github.com/ankkitsharma/Video-Streaming-Website"
+          href="https://chaitube.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
         >
