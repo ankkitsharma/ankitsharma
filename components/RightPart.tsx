@@ -68,7 +68,70 @@ export default function RightPart() {
       <section className={styles.heading + " " + styles.pt} id="projects">
         <h1>Projects</h1>
         <a
-          href="https://github.com/ankkitsharma/Video-Streaming-Website"
+          href="https://help-center-mauve.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className={styles.gridContainer}>
+            <div className={styles.gridItem}>
+              <Image
+                src={"/Projects/helpCenter.png"}
+                alt="help-center Screenshot"
+                width={150}
+                height={84.375}
+              />
+            </div>
+            <div className={styles.gridItem}>
+              <div className={styles.gridHeader}>Help center</div>
+              <div className={styles.gridBody}>
+                Help Center is a full stack application built using Nextjs and
+                Express. It uses React Query for asynchronous state management.
+              </div>
+              <ul className={styles.techUsed}>
+                <li>Next.js</li>
+                <li>TypeScript </li>
+                <li>React Query</li>
+                <li>Node</li>
+                <li>Express</li>
+                <li>Postgres</li>
+              </ul>
+            </div>
+          </div>
+        </a>
+        <a
+          href="https://dash-boardify.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className={styles.gridContainer}>
+            <div className={styles.gridItem}>
+              <Image
+                src={"/Projects/DashBoardify.png"}
+                alt="DashBoardify Screenshot"
+                width={150}
+                height={84.375}
+              />
+            </div>
+            <div className={styles.gridItem}>
+              <div className={styles.gridHeader}>Dashboardify</div>
+              <div className={styles.gridBody}>
+                Dashboardify is a highly customizable dashboard application
+                built with Next.js and React. It features a modular design,
+                allowing you to easily add or remove widgets and components to
+                suit your needs.
+              </div>
+              <ul className={styles.techUsed}>
+                <li>Next.js</li>
+                <li>TypeScript </li>
+                <li>Redux</li>
+                <li>Recharts</li>
+                <li>Redux Persist</li>
+              </ul>
+            </div>
+          </div>
+        </a>
+        <a
+          href="https://chaitube.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
         >
