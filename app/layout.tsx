@@ -5,8 +5,12 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Ankit Sharma",
+  title: "Portfolio of Ankit Sharma",
   description: "Portfolio of Ankit Sharma",
+  authors: {
+    name: "Ankit Sharma",
+    url: "https://www.linkedin.com/in/ankkitsharma/",
+  },
   openGraph: {
     type: "website",
     url: "https://ankitsharma.vercel.app",
@@ -24,6 +28,7 @@ export const metadata: Metadata = {
         height: 630,
       },
     ],
+    siteName: "Ankit Sharma",
   },
 };
 
