@@ -4,7 +4,6 @@
   flex-direction: column;
   gap: 8rem;
   padding-bottom: 10rem;
-  /* scroll-snap-type: y mandatory; */
   height: 100vh;
   line-height: 26px;
   min-width: 328.5px;
@@ -15,12 +14,11 @@
 }
 
 .pt {
-  /* scroll-snap-align: center; */
   padding-top: 2rem;
 }
 
 .bottomSection {
-  padding-bottom: 10rem;
+  padding-bottom: 28rem;
 }
 
 .gridContainer {
@@ -120,6 +118,10 @@
 .contact {
   display: flex;
   gap: 0.5rem;
+}
+
+.hiddenDiv {
+  height: 400px;
 }
 
 @media screen and (max-width: 920px) {

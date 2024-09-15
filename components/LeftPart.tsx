@@ -16,6 +16,8 @@ export default function LeftPart() {
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
+          console.log("entry.target.id ", entry.target.id);
+          console.log("entry.isIntersecting ", entry.isIntersecting);
           if (entry.isIntersecting) {
             let id = entry.target.id;
 
@@ -33,7 +35,9 @@ export default function LeftPart() {
         });
       },
       {
-        threshold: 0.9,
+        root: document,
+        rootMargin: "-10% 0px -90% 0px",
+        // threshold: 0.1,
       }
     );
 

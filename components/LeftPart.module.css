@@ -42,10 +42,10 @@
   list-style: none;
 }
 
-.nav li:hover {
+/* .nav li:hover {
   font-weight: 600;
   font-size: 1.2rem;
-}
+} */
 
 .intro {
   width: 50%;
